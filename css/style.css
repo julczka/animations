@@ -1,6 +1,7 @@
 body {
   margin: 0px 0 0 0;
-  background-image: linear-gradient(#00001c, #040044);
+  background: linear-gradient(#00001c, #040044);
+  height: 100vh;
 }
 
 #background {
@@ -10,19 +11,36 @@ body {
 
 #mountains {
   position: absolute;
-  height: 100vh;
-  width: 100vw;
-  top: 100vh;
-  left: 100vw;
+  bottom: 0;
   z-index: 5;
 }
 
-#moon {
+@keyframes moonDown {
+  from {
+    top: 0%;
+  }
+  to {
+    bottom: 100%;
+  }
+}
+#moonControl {
+  z-index: 1;
   position: absolute;
   height: 50vh;
   width: 50vw;
-  top: 10vh;
+  top: 0vh;
   left: 30vh;
+  height: 100vh;
+}
+
+#moon {
+  z-index: 1;
+  position: absolute;
+  height: 50vh;
+  width: 50vw;
+  top: 100vh;
+  left: 30vh;
+  animation: moonDown 5s linear infinite;
 }
 
 #star {
