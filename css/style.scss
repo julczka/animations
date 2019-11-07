@@ -64,6 +64,12 @@ body {
     50% {transform: scale(1.2);opacity: 1}
     100% {transform: scale(1);opacity:0.6}
 }
+
+@keyframes pulseB {
+    0% {transform: scale(1);}
+    50% {transform: scale(1.2);}
+    100% {transform: scale(1);}
+}
 /*
 @keyframes blink {
     0% {opacity: 1}
@@ -73,29 +79,28 @@ body {
 */
 #star {
   @include positionAbsolute(10vh, 10vw, 40vh, 70vw);
-  animation: pulse 0.7s ease-in-out infinite;
+  animation: pulseB 0.7s ease-in-out infinite;
   z-index: 3;
   
 }
 #star2 {
   @include positionAbsolute(20vh, 20vw, 10vh, 5vw);
-  animation: pulse 1s linear infinite;
+  animation: pulseB 3s linear infinite;
   z-index: 3;
 }
 
 @for $i from 1 to 100 {
     $limit: 100;
     $animationTime: 2400;
-    $sizeSize: 2;
     $test: random((2000) + 400);
-    $size: random($sizeSize);
+    $size: random(100);
 //$top: #{$i}vh;
 //$left: #{$i}vh;
 
     .littleStar#{$i} {
     
-        width: $size + vh;
-        height: $size + vh;
+        width: $size/100 + vh;
+        height: $size/100  + vh;
         background-color: orange;
         position: absolute;
         top:random($limit) + vh;
@@ -106,6 +111,9 @@ body {
     }
     
 }
+
+
+
 
 
 /*.littleStar {

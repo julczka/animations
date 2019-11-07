@@ -68,6 +68,17 @@ body {
     opacity: 0.6;
   }
 }
+@keyframes pulseB {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 /*
 @keyframes blink {
     0% {opacity: 1}
@@ -81,7 +92,7 @@ body {
   width: 10vw;
   top: 40vh;
   left: 70vw;
-  animation: pulse 0.7s ease-in-out infinite;
+  animation: pulseB 0.7s ease-in-out infinite;
   z-index: 3;
 }
 
@@ -91,1196 +102,1196 @@ body {
   width: 20vw;
   top: 10vh;
   left: 5vw;
-  animation: pulse 1s linear infinite;
+  animation: pulseB 3s linear infinite;
   z-index: 3;
 }
 
 .littleStar1 {
-  width: 2vh;
-  height: 2vh;
+  width: 0.52vh;
+  height: 0.52vh;
   background-color: orange;
   position: absolute;
-  top: 87vh;
-  left: 27vw;
+  top: 81vh;
+  left: 74vw;
   border-radius: 50px;
   z-index: 2;
-  animation: pulse 888ms linear infinite;
+  animation: pulse 1927ms linear infinite;
 }
 
 .littleStar2 {
-  width: 2vh;
-  height: 2vh;
+  width: 0.72vh;
+  height: 0.72vh;
   background-color: orange;
   position: absolute;
-  top: 83vh;
-  left: 98vw;
+  top: 48vh;
+  left: 14vw;
   border-radius: 50px;
   z-index: 2;
-  animation: pulse 510ms linear infinite;
+  animation: pulse 647ms linear infinite;
 }
 
 .littleStar3 {
-  width: 2vh;
-  height: 2vh;
+  width: 0.54vh;
+  height: 0.54vh;
   background-color: orange;
   position: absolute;
-  top: 66vh;
-  left: 44vw;
+  top: 37vh;
+  left: 99vw;
   border-radius: 50px;
   z-index: 2;
-  animation: pulse 53ms linear infinite;
+  animation: pulse 90ms linear infinite;
 }
 
 .littleStar4 {
-  width: 1vh;
-  height: 1vh;
+  width: 0.31vh;
+  height: 0.31vh;
   background-color: orange;
   position: absolute;
-  top: 100vh;
-  left: 37vw;
+  top: 54vh;
+  left: 33vw;
   border-radius: 50px;
   z-index: 2;
-  animation: pulse 330ms linear infinite;
+  animation: pulse 654ms linear infinite;
 }
 
 .littleStar5 {
-  width: 1vh;
-  height: 1vh;
+  width: 0.2vh;
+  height: 0.2vh;
   background-color: orange;
   position: absolute;
-  top: 57vh;
-  left: 50vw;
+  top: 71vh;
+  left: 89vw;
   border-radius: 50px;
   z-index: 2;
-  animation: pulse 1998ms linear infinite;
+  animation: pulse 430ms linear infinite;
 }
 
 .littleStar6 {
-  width: 2vh;
-  height: 2vh;
+  width: 0.59vh;
+  height: 0.59vh;
   background-color: orange;
   position: absolute;
-  top: 45vh;
-  left: 94vw;
+  top: 91vh;
+  left: 85vw;
   border-radius: 50px;
   z-index: 2;
-  animation: pulse 1167ms linear infinite;
+  animation: pulse 2012ms linear infinite;
 }
 
 .littleStar7 {
-  width: 1vh;
-  height: 1vh;
+  width: 0.61vh;
+  height: 0.61vh;
   background-color: orange;
   position: absolute;
-  top: 45vh;
-  left: 95vw;
+  top: 71vh;
+  left: 9vw;
   border-radius: 50px;
   z-index: 2;
-  animation: pulse 1843ms linear infinite;
+  animation: pulse 344ms linear infinite;
 }
 
 .littleStar8 {
-  width: 1vh;
-  height: 1vh;
+  width: 0.04vh;
+  height: 0.04vh;
   background-color: orange;
   position: absolute;
-  top: 13vh;
-  left: 35vw;
-  border-radius: 50px;
-  z-index: 2;
-  animation: pulse 2089ms linear infinite;
-}
-
-.littleStar9 {
-  width: 2vh;
-  height: 2vh;
-  background-color: orange;
-  position: absolute;
-  top: 84vh;
-  left: 36vw;
-  border-radius: 50px;
-  z-index: 2;
-  animation: pulse 1005ms linear infinite;
-}
-
-.littleStar10 {
-  width: 2vh;
-  height: 2vh;
-  background-color: orange;
-  position: absolute;
-  top: 34vh;
-  left: 64vw;
-  border-radius: 50px;
-  z-index: 2;
-  animation: pulse 1730ms linear infinite;
-}
-
-.littleStar11 {
-  width: 2vh;
-  height: 2vh;
-  background-color: orange;
-  position: absolute;
-  top: 44vh;
-  left: 24vw;
-  border-radius: 50px;
-  z-index: 2;
-  animation: pulse 2345ms linear infinite;
-}
-
-.littleStar12 {
-  width: 1vh;
-  height: 1vh;
-  background-color: orange;
-  position: absolute;
-  top: 41vh;
-  left: 76vw;
-  border-radius: 50px;
-  z-index: 2;
-  animation: pulse 1996ms linear infinite;
-}
-
-.littleStar13 {
-  width: 2vh;
-  height: 2vh;
-  background-color: orange;
-  position: absolute;
-  top: 89vh;
-  left: 59vw;
-  border-radius: 50px;
-  z-index: 2;
-  animation: pulse 459ms linear infinite;
-}
-
-.littleStar14 {
-  width: 1vh;
-  height: 1vh;
-  background-color: orange;
-  position: absolute;
-  top: 44vh;
-  left: 25vw;
-  border-radius: 50px;
-  z-index: 2;
-  animation: pulse 1346ms linear infinite;
-}
-
-.littleStar15 {
-  width: 1vh;
-  height: 1vh;
-  background-color: orange;
-  position: absolute;
-  top: 76vh;
-  left: 45vw;
-  border-radius: 50px;
-  z-index: 2;
-  animation: pulse 1920ms linear infinite;
-}
-
-.littleStar16 {
-  width: 2vh;
-  height: 2vh;
-  background-color: orange;
-  position: absolute;
-  top: 66vh;
-  left: 88vw;
-  border-radius: 50px;
-  z-index: 2;
-  animation: pulse 1226ms linear infinite;
-}
-
-.littleStar17 {
-  width: 2vh;
-  height: 2vh;
-  background-color: orange;
-  position: absolute;
-  top: 82vh;
-  left: 65vw;
-  border-radius: 50px;
-  z-index: 2;
-  animation: pulse 1035ms linear infinite;
-}
-
-.littleStar18 {
-  width: 1vh;
-  height: 1vh;
-  background-color: orange;
-  position: absolute;
-  top: 95vh;
-  left: 1vw;
-  border-radius: 50px;
-  z-index: 2;
-  animation: pulse 2089ms linear infinite;
-}
-
-.littleStar19 {
-  width: 2vh;
-  height: 2vh;
-  background-color: orange;
-  position: absolute;
-  top: 51vh;
-  left: 65vw;
-  border-radius: 50px;
-  z-index: 2;
-  animation: pulse 493ms linear infinite;
-}
-
-.littleStar20 {
-  width: 2vh;
-  height: 2vh;
-  background-color: orange;
-  position: absolute;
-  top: 76vh;
-  left: 21vw;
+  top: 60vh;
+  left: 74vw;
   border-radius: 50px;
   z-index: 2;
   animation: pulse 1960ms linear infinite;
 }
 
-.littleStar21 {
-  width: 1vh;
-  height: 1vh;
-  background-color: orange;
-  position: absolute;
-  top: 10vh;
-  left: 64vw;
-  border-radius: 50px;
-  z-index: 2;
-  animation: pulse 361ms linear infinite;
-}
-
-.littleStar22 {
-  width: 2vh;
-  height: 2vh;
-  background-color: orange;
-  position: absolute;
-  top: 32vh;
-  left: 64vw;
-  border-radius: 50px;
-  z-index: 2;
-  animation: pulse 124ms linear infinite;
-}
-
-.littleStar23 {
-  width: 1vh;
-  height: 1vh;
-  background-color: orange;
-  position: absolute;
-  top: 89vh;
-  left: 91vw;
-  border-radius: 50px;
-  z-index: 2;
-  animation: pulse 1303ms linear infinite;
-}
-
-.littleStar24 {
-  width: 2vh;
-  height: 2vh;
+.littleStar9 {
+  width: 0.34vh;
+  height: 0.34vh;
   background-color: orange;
   position: absolute;
   top: 50vh;
-  left: 61vw;
+  left: 51vw;
   border-radius: 50px;
   z-index: 2;
-  animation: pulse 862ms linear infinite;
+  animation: pulse 545ms linear infinite;
 }
 
-.littleStar25 {
-  width: 1vh;
-  height: 1vh;
+.littleStar10 {
+  width: 0.46vh;
+  height: 0.46vh;
   background-color: orange;
   position: absolute;
-  top: 25vh;
-  left: 21vw;
+  top: 81vh;
+  left: 60vw;
   border-radius: 50px;
   z-index: 2;
-  animation: pulse 967ms linear infinite;
+  animation: pulse 1778ms linear infinite;
 }
 
-.littleStar26 {
-  width: 2vh;
-  height: 2vh;
+.littleStar11 {
+  width: 0.21vh;
+  height: 0.21vh;
   background-color: orange;
   position: absolute;
-  top: 39vh;
-  left: 71vw;
+  top: 10vh;
+  left: 39vw;
   border-radius: 50px;
   z-index: 2;
-  animation: pulse 1540ms linear infinite;
+  animation: pulse 1830ms linear infinite;
 }
 
-.littleStar27 {
-  width: 2vh;
-  height: 2vh;
+.littleStar12 {
+  width: 0.15vh;
+  height: 0.15vh;
   background-color: orange;
   position: absolute;
-  top: 69vh;
-  left: 91vw;
+  top: 88vh;
+  left: 42vw;
   border-radius: 50px;
   z-index: 2;
-  animation: pulse 82ms linear infinite;
+  animation: pulse 1802ms linear infinite;
 }
 
-.littleStar28 {
-  width: 1vh;
-  height: 1vh;
+.littleStar13 {
+  width: 0.33vh;
+  height: 0.33vh;
   background-color: orange;
   position: absolute;
-  top: 45vh;
-  left: 5vw;
-  border-radius: 50px;
-  z-index: 2;
-  animation: pulse 1550ms linear infinite;
-}
-
-.littleStar29 {
-  width: 1vh;
-  height: 1vh;
-  background-color: orange;
-  position: absolute;
-  top: 95vh;
-  left: 31vw;
-  border-radius: 50px;
-  z-index: 2;
-  animation: pulse 405ms linear infinite;
-}
-
-.littleStar30 {
-  width: 1vh;
-  height: 1vh;
-  background-color: orange;
-  position: absolute;
-  top: 20vh;
-  left: 40vw;
-  border-radius: 50px;
-  z-index: 2;
-  animation: pulse 330ms linear infinite;
-}
-
-.littleStar31 {
-  width: 2vh;
-  height: 2vh;
-  background-color: orange;
-  position: absolute;
-  top: 80vh;
-  left: 34vw;
-  border-radius: 50px;
-  z-index: 2;
-  animation: pulse 2347ms linear infinite;
-}
-
-.littleStar32 {
-  width: 1vh;
-  height: 1vh;
-  background-color: orange;
-  position: absolute;
-  top: 44vh;
-  left: 47vw;
-  border-radius: 50px;
-  z-index: 2;
-  animation: pulse 352ms linear infinite;
-}
-
-.littleStar33 {
-  width: 2vh;
-  height: 2vh;
-  background-color: orange;
-  position: absolute;
-  top: 86vh;
-  left: 96vw;
-  border-radius: 50px;
-  z-index: 2;
-  animation: pulse 851ms linear infinite;
-}
-
-.littleStar34 {
-  width: 2vh;
-  height: 2vh;
-  background-color: orange;
-  position: absolute;
-  top: 73vh;
-  left: 76vw;
-  border-radius: 50px;
-  z-index: 2;
-  animation: pulse 907ms linear infinite;
-}
-
-.littleStar35 {
-  width: 1vh;
-  height: 1vh;
-  background-color: orange;
-  position: absolute;
-  top: 47vh;
-  left: 37vw;
-  border-radius: 50px;
-  z-index: 2;
-  animation: pulse 144ms linear infinite;
-}
-
-.littleStar36 {
-  width: 1vh;
-  height: 1vh;
-  background-color: orange;
-  position: absolute;
-  top: 54vh;
-  left: 56vw;
-  border-radius: 50px;
-  z-index: 2;
-  animation: pulse 909ms linear infinite;
-}
-
-.littleStar37 {
-  width: 2vh;
-  height: 2vh;
-  background-color: orange;
-  position: absolute;
-  top: 64vh;
-  left: 92vw;
-  border-radius: 50px;
-  z-index: 2;
-  animation: pulse 715ms linear infinite;
-}
-
-.littleStar38 {
-  width: 1vh;
-  height: 1vh;
-  background-color: orange;
-  position: absolute;
-  top: 87vh;
-  left: 33vw;
-  border-radius: 50px;
-  z-index: 2;
-  animation: pulse 279ms linear infinite;
-}
-
-.littleStar39 {
-  width: 2vh;
-  height: 2vh;
-  background-color: orange;
-  position: absolute;
-  top: 53vh;
-  left: 19vw;
-  border-radius: 50px;
-  z-index: 2;
-  animation: pulse 1947ms linear infinite;
-}
-
-.littleStar40 {
-  width: 1vh;
-  height: 1vh;
-  background-color: orange;
-  position: absolute;
-  top: 25vh;
+  top: 63vh;
   left: 89vw;
   border-radius: 50px;
   z-index: 2;
-  animation: pulse 1208ms linear infinite;
+  animation: pulse 1111ms linear infinite;
 }
 
-.littleStar41 {
-  width: 1vh;
-  height: 1vh;
-  background-color: orange;
-  position: absolute;
-  top: 24vh;
-  left: 37vw;
-  border-radius: 50px;
-  z-index: 2;
-  animation: pulse 2353ms linear infinite;
-}
-
-.littleStar42 {
-  width: 2vh;
-  height: 2vh;
-  background-color: orange;
-  position: absolute;
-  top: 77vh;
-  left: 59vw;
-  border-radius: 50px;
-  z-index: 2;
-  animation: pulse 316ms linear infinite;
-}
-
-.littleStar43 {
-  width: 1vh;
-  height: 1vh;
-  background-color: orange;
-  position: absolute;
-  top: 75vh;
-  left: 87vw;
-  border-radius: 50px;
-  z-index: 2;
-  animation: pulse 1917ms linear infinite;
-}
-
-.littleStar44 {
-  width: 1vh;
-  height: 1vh;
-  background-color: orange;
-  position: absolute;
-  top: 9vh;
-  left: 26vw;
-  border-radius: 50px;
-  z-index: 2;
-  animation: pulse 2308ms linear infinite;
-}
-
-.littleStar45 {
-  width: 1vh;
-  height: 1vh;
-  background-color: orange;
-  position: absolute;
-  top: 11vh;
-  left: 77vw;
-  border-radius: 50px;
-  z-index: 2;
-  animation: pulse 611ms linear infinite;
-}
-
-.littleStar46 {
-  width: 1vh;
-  height: 1vh;
+.littleStar14 {
+  width: 0.64vh;
+  height: 0.64vh;
   background-color: orange;
   position: absolute;
   top: 34vh;
-  left: 95vw;
+  left: 73vw;
   border-radius: 50px;
   z-index: 2;
-  animation: pulse 1638ms linear infinite;
+  animation: pulse 1503ms linear infinite;
 }
 
-.littleStar47 {
-  width: 1vh;
-  height: 1vh;
+.littleStar15 {
+  width: 0.39vh;
+  height: 0.39vh;
+  background-color: orange;
+  position: absolute;
+  top: 4vh;
+  left: 64vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 1499ms linear infinite;
+}
+
+.littleStar16 {
+  width: 0.33vh;
+  height: 0.33vh;
+  background-color: orange;
+  position: absolute;
+  top: 28vh;
+  left: 45vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 2289ms linear infinite;
+}
+
+.littleStar17 {
+  width: 0.18vh;
+  height: 0.18vh;
+  background-color: orange;
+  position: absolute;
+  top: 44vh;
+  left: 30vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 591ms linear infinite;
+}
+
+.littleStar18 {
+  width: 0.61vh;
+  height: 0.61vh;
+  background-color: orange;
+  position: absolute;
+  top: 9vh;
+  left: 51vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 1715ms linear infinite;
+}
+
+.littleStar19 {
+  width: 0.62vh;
+  height: 0.62vh;
+  background-color: orange;
+  position: absolute;
+  top: 7vh;
+  left: 28vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 2290ms linear infinite;
+}
+
+.littleStar20 {
+  width: 0.8vh;
+  height: 0.8vh;
+  background-color: orange;
+  position: absolute;
+  top: 52vh;
+  left: 29vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 789ms linear infinite;
+}
+
+.littleStar21 {
+  width: 0.52vh;
+  height: 0.52vh;
+  background-color: orange;
+  position: absolute;
+  top: 20vh;
+  left: 9vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 1881ms linear infinite;
+}
+
+.littleStar22 {
+  width: 0.87vh;
+  height: 0.87vh;
+  background-color: orange;
+  position: absolute;
+  top: 89vh;
+  left: 36vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 528ms linear infinite;
+}
+
+.littleStar23 {
+  width: 0.56vh;
+  height: 0.56vh;
+  background-color: orange;
+  position: absolute;
+  top: 92vh;
+  left: 91vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 882ms linear infinite;
+}
+
+.littleStar24 {
+  width: 0.73vh;
+  height: 0.73vh;
+  background-color: orange;
+  position: absolute;
+  top: 9vh;
+  left: 85vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 238ms linear infinite;
+}
+
+.littleStar25 {
+  width: 0.66vh;
+  height: 0.66vh;
+  background-color: orange;
+  position: absolute;
+  top: 94vh;
+  left: 26vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 1798ms linear infinite;
+}
+
+.littleStar26 {
+  width: 0.76vh;
+  height: 0.76vh;
+  background-color: orange;
+  position: absolute;
+  top: 58vh;
+  left: 23vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 460ms linear infinite;
+}
+
+.littleStar27 {
+  width: 0.21vh;
+  height: 0.21vh;
+  background-color: orange;
+  position: absolute;
+  top: 72vh;
+  left: 9vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 1052ms linear infinite;
+}
+
+.littleStar28 {
+  width: 0.23vh;
+  height: 0.23vh;
+  background-color: orange;
+  position: absolute;
+  top: 38vh;
+  left: 97vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 622ms linear infinite;
+}
+
+.littleStar29 {
+  width: 0.43vh;
+  height: 0.43vh;
+  background-color: orange;
+  position: absolute;
+  top: 28vh;
+  left: 30vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 1065ms linear infinite;
+}
+
+.littleStar30 {
+  width: 0.12vh;
+  height: 0.12vh;
+  background-color: orange;
+  position: absolute;
+  top: 6vh;
+  left: 3vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 485ms linear infinite;
+}
+
+.littleStar31 {
+  width: 0.57vh;
+  height: 0.57vh;
+  background-color: orange;
+  position: absolute;
+  top: 50vh;
+  left: 57vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 1016ms linear infinite;
+}
+
+.littleStar32 {
+  width: 0.28vh;
+  height: 0.28vh;
+  background-color: orange;
+  position: absolute;
+  top: 5vh;
+  left: 20vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 1026ms linear infinite;
+}
+
+.littleStar33 {
+  width: 0.16vh;
+  height: 0.16vh;
+  background-color: orange;
+  position: absolute;
+  top: 59vh;
+  left: 42vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 1273ms linear infinite;
+}
+
+.littleStar34 {
+  width: 0.89vh;
+  height: 0.89vh;
+  background-color: orange;
+  position: absolute;
+  top: 34vh;
+  left: 56vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 1007ms linear infinite;
+}
+
+.littleStar35 {
+  width: 0.42vh;
+  height: 0.42vh;
+  background-color: orange;
+  position: absolute;
+  top: 72vh;
+  left: 58vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 1824ms linear infinite;
+}
+
+.littleStar36 {
+  width: 0.44vh;
+  height: 0.44vh;
   background-color: orange;
   position: absolute;
   top: 91vh;
   left: 42vw;
   border-radius: 50px;
   z-index: 2;
-  animation: pulse 1050ms linear infinite;
+  animation: pulse 2095ms linear infinite;
 }
 
-.littleStar48 {
-  width: 2vh;
-  height: 2vh;
+.littleStar37 {
+  width: 0.13vh;
+  height: 0.13vh;
   background-color: orange;
   position: absolute;
-  top: 86vh;
-  left: 24vw;
+  top: 94vh;
+  left: 19vw;
   border-radius: 50px;
   z-index: 2;
-  animation: pulse 1831ms linear infinite;
+  animation: pulse 376ms linear infinite;
 }
 
-.littleStar49 {
-  width: 1vh;
-  height: 1vh;
+.littleStar38 {
+  width: 0.98vh;
+  height: 0.98vh;
   background-color: orange;
   position: absolute;
-  top: 48vh;
-  left: 29vw;
+  top: 100vh;
+  left: 4vw;
   border-radius: 50px;
   z-index: 2;
-  animation: pulse 748ms linear infinite;
+  animation: pulse 1350ms linear infinite;
 }
 
-.littleStar50 {
-  width: 2vh;
-  height: 2vh;
-  background-color: orange;
-  position: absolute;
-  top: 17vh;
-  left: 13vw;
-  border-radius: 50px;
-  z-index: 2;
-  animation: pulse 110ms linear infinite;
-}
-
-.littleStar51 {
-  width: 1vh;
-  height: 1vh;
-  background-color: orange;
-  position: absolute;
-  top: 49vh;
-  left: 96vw;
-  border-radius: 50px;
-  z-index: 2;
-  animation: pulse 1123ms linear infinite;
-}
-
-.littleStar52 {
-  width: 2vh;
-  height: 2vh;
-  background-color: orange;
-  position: absolute;
-  top: 52vh;
-  left: 83vw;
-  border-radius: 50px;
-  z-index: 2;
-  animation: pulse 596ms linear infinite;
-}
-
-.littleStar53 {
-  width: 2vh;
-  height: 2vh;
-  background-color: orange;
-  position: absolute;
-  top: 19vh;
-  left: 44vw;
-  border-radius: 50px;
-  z-index: 2;
-  animation: pulse 1472ms linear infinite;
-}
-
-.littleStar54 {
-  width: 1vh;
-  height: 1vh;
-  background-color: orange;
-  position: absolute;
-  top: 18vh;
-  left: 56vw;
-  border-radius: 50px;
-  z-index: 2;
-  animation: pulse 713ms linear infinite;
-}
-
-.littleStar55 {
-  width: 1vh;
-  height: 1vh;
-  background-color: orange;
-  position: absolute;
-  top: 9vh;
-  left: 87vw;
-  border-radius: 50px;
-  z-index: 2;
-  animation: pulse 1155ms linear infinite;
-}
-
-.littleStar56 {
-  width: 1vh;
-  height: 1vh;
-  background-color: orange;
-  position: absolute;
-  top: 68vh;
-  left: 81vw;
-  border-radius: 50px;
-  z-index: 2;
-  animation: pulse 442ms linear infinite;
-}
-
-.littleStar57 {
-  width: 1vh;
-  height: 1vh;
-  background-color: orange;
-  position: absolute;
-  top: 9vh;
-  left: 69vw;
-  border-radius: 50px;
-  z-index: 2;
-  animation: pulse 1358ms linear infinite;
-}
-
-.littleStar58 {
-  width: 2vh;
-  height: 2vh;
-  background-color: orange;
-  position: absolute;
-  top: 82vh;
-  left: 7vw;
-  border-radius: 50px;
-  z-index: 2;
-  animation: pulse 2160ms linear infinite;
-}
-
-.littleStar59 {
-  width: 1vh;
-  height: 1vh;
-  background-color: orange;
-  position: absolute;
-  top: 99vh;
-  left: 13vw;
-  border-radius: 50px;
-  z-index: 2;
-  animation: pulse 1810ms linear infinite;
-}
-
-.littleStar60 {
-  width: 2vh;
-  height: 2vh;
-  background-color: orange;
-  position: absolute;
-  top: 76vh;
-  left: 100vw;
-  border-radius: 50px;
-  z-index: 2;
-  animation: pulse 654ms linear infinite;
-}
-
-.littleStar61 {
-  width: 1vh;
-  height: 1vh;
-  background-color: orange;
-  position: absolute;
-  top: 5vh;
-  left: 11vw;
-  border-radius: 50px;
-  z-index: 2;
-  animation: pulse 2168ms linear infinite;
-}
-
-.littleStar62 {
-  width: 1vh;
-  height: 1vh;
-  background-color: orange;
-  position: absolute;
-  top: 45vh;
-  left: 53vw;
-  border-radius: 50px;
-  z-index: 2;
-  animation: pulse 1517ms linear infinite;
-}
-
-.littleStar63 {
-  width: 2vh;
-  height: 2vh;
-  background-color: orange;
-  position: absolute;
-  top: 81vh;
-  left: 26vw;
-  border-radius: 50px;
-  z-index: 2;
-  animation: pulse 70ms linear infinite;
-}
-
-.littleStar64 {
-  width: 1vh;
-  height: 1vh;
-  background-color: orange;
-  position: absolute;
-  top: 95vh;
-  left: 18vw;
-  border-radius: 50px;
-  z-index: 2;
-  animation: pulse 63ms linear infinite;
-}
-
-.littleStar65 {
-  width: 2vh;
-  height: 2vh;
-  background-color: orange;
-  position: absolute;
-  top: 30vh;
-  left: 85vw;
-  border-radius: 50px;
-  z-index: 2;
-  animation: pulse 1997ms linear infinite;
-}
-
-.littleStar66 {
-  width: 1vh;
-  height: 1vh;
-  background-color: orange;
-  position: absolute;
-  top: 32vh;
-  left: 83vw;
-  border-radius: 50px;
-  z-index: 2;
-  animation: pulse 1104ms linear infinite;
-}
-
-.littleStar67 {
-  width: 1vh;
-  height: 1vh;
-  background-color: orange;
-  position: absolute;
-  top: 79vh;
-  left: 10vw;
-  border-radius: 50px;
-  z-index: 2;
-  animation: pulse 1174ms linear infinite;
-}
-
-.littleStar68 {
-  width: 2vh;
-  height: 2vh;
-  background-color: orange;
-  position: absolute;
-  top: 20vh;
-  left: 58vw;
-  border-radius: 50px;
-  z-index: 2;
-  animation: pulse 1822ms linear infinite;
-}
-
-.littleStar69 {
-  width: 1vh;
-  height: 1vh;
-  background-color: orange;
-  position: absolute;
-  top: 51vh;
-  left: 39vw;
-  border-radius: 50px;
-  z-index: 2;
-  animation: pulse 915ms linear infinite;
-}
-
-.littleStar70 {
-  width: 1vh;
-  height: 1vh;
-  background-color: orange;
-  position: absolute;
-  top: 63vh;
-  left: 26vw;
-  border-radius: 50px;
-  z-index: 2;
-  animation: pulse 1225ms linear infinite;
-}
-
-.littleStar71 {
-  width: 2vh;
-  height: 2vh;
-  background-color: orange;
-  position: absolute;
-  top: 3vh;
-  left: 65vw;
-  border-radius: 50px;
-  z-index: 2;
-  animation: pulse 599ms linear infinite;
-}
-
-.littleStar72 {
-  width: 1vh;
-  height: 1vh;
-  background-color: orange;
-  position: absolute;
-  top: 11vh;
-  left: 96vw;
-  border-radius: 50px;
-  z-index: 2;
-  animation: pulse 2009ms linear infinite;
-}
-
-.littleStar73 {
-  width: 2vh;
-  height: 2vh;
-  background-color: orange;
-  position: absolute;
-  top: 92vh;
-  left: 24vw;
-  border-radius: 50px;
-  z-index: 2;
-  animation: pulse 1674ms linear infinite;
-}
-
-.littleStar74 {
-  width: 2vh;
-  height: 2vh;
-  background-color: orange;
-  position: absolute;
-  top: 16vh;
-  left: 95vw;
-  border-radius: 50px;
-  z-index: 2;
-  animation: pulse 1605ms linear infinite;
-}
-
-.littleStar75 {
-  width: 1vh;
-  height: 1vh;
+.littleStar39 {
+  width: 0.69vh;
+  height: 0.69vh;
   background-color: orange;
   position: absolute;
   top: 1vh;
-  left: 74vw;
-  border-radius: 50px;
-  z-index: 2;
-  animation: pulse 1048ms linear infinite;
-}
-
-.littleStar76 {
-  width: 2vh;
-  height: 2vh;
-  background-color: orange;
-  position: absolute;
-  top: 56vh;
-  left: 3vw;
-  border-radius: 50px;
-  z-index: 2;
-  animation: pulse 606ms linear infinite;
-}
-
-.littleStar77 {
-  width: 2vh;
-  height: 2vh;
-  background-color: orange;
-  position: absolute;
-  top: 5vh;
-  left: 58vw;
-  border-radius: 50px;
-  z-index: 2;
-  animation: pulse 2290ms linear infinite;
-}
-
-.littleStar78 {
-  width: 2vh;
-  height: 2vh;
-  background-color: orange;
-  position: absolute;
-  top: 62vh;
-  left: 43vw;
-  border-radius: 50px;
-  z-index: 2;
-  animation: pulse 81ms linear infinite;
-}
-
-.littleStar79 {
-  width: 1vh;
-  height: 1vh;
-  background-color: orange;
-  position: absolute;
-  top: 40vh;
-  left: 39vw;
-  border-radius: 50px;
-  z-index: 2;
-  animation: pulse 2314ms linear infinite;
-}
-
-.littleStar80 {
-  width: 2vh;
-  height: 2vh;
-  background-color: orange;
-  position: absolute;
-  top: 53vh;
-  left: 98vw;
-  border-radius: 50px;
-  z-index: 2;
-  animation: pulse 436ms linear infinite;
-}
-
-.littleStar81 {
-  width: 1vh;
-  height: 1vh;
-  background-color: orange;
-  position: absolute;
-  top: 89vh;
-  left: 74vw;
-  border-radius: 50px;
-  z-index: 2;
-  animation: pulse 1843ms linear infinite;
-}
-
-.littleStar82 {
-  width: 2vh;
-  height: 2vh;
-  background-color: orange;
-  position: absolute;
-  top: 80vh;
-  left: 56vw;
-  border-radius: 50px;
-  z-index: 2;
-  animation: pulse 1028ms linear infinite;
-}
-
-.littleStar83 {
-  width: 2vh;
-  height: 2vh;
-  background-color: orange;
-  position: absolute;
-  top: 21vh;
-  left: 49vw;
-  border-radius: 50px;
-  z-index: 2;
-  animation: pulse 2102ms linear infinite;
-}
-
-.littleStar84 {
-  width: 1vh;
-  height: 1vh;
-  background-color: orange;
-  position: absolute;
-  top: 83vh;
-  left: 48vw;
-  border-radius: 50px;
-  z-index: 2;
-  animation: pulse 1138ms linear infinite;
-}
-
-.littleStar85 {
-  width: 2vh;
-  height: 2vh;
-  background-color: orange;
-  position: absolute;
-  top: 23vh;
-  left: 88vw;
-  border-radius: 50px;
-  z-index: 2;
-  animation: pulse 1903ms linear infinite;
-}
-
-.littleStar86 {
-  width: 1vh;
-  height: 1vh;
-  background-color: orange;
-  position: absolute;
-  top: 77vh;
-  left: 1vw;
-  border-radius: 50px;
-  z-index: 2;
-  animation: pulse 710ms linear infinite;
-}
-
-.littleStar87 {
-  width: 1vh;
-  height: 1vh;
-  background-color: orange;
-  position: absolute;
-  top: 2vh;
-  left: 85vw;
-  border-radius: 50px;
-  z-index: 2;
-  animation: pulse 830ms linear infinite;
-}
-
-.littleStar88 {
-  width: 2vh;
-  height: 2vh;
-  background-color: orange;
-  position: absolute;
-  top: 21vh;
   left: 76vw;
   border-radius: 50px;
   z-index: 2;
-  animation: pulse 891ms linear infinite;
+  animation: pulse 2260ms linear infinite;
 }
 
-.littleStar89 {
-  width: 2vh;
-  height: 2vh;
+.littleStar40 {
+  width: 0.96vh;
+  height: 0.96vh;
   background-color: orange;
   position: absolute;
-  top: 79vh;
-  left: 80vw;
+  top: 31vh;
+  left: 81vw;
   border-radius: 50px;
   z-index: 2;
-  animation: pulse 557ms linear infinite;
+  animation: pulse 2379ms linear infinite;
 }
 
-.littleStar90 {
-  width: 2vh;
-  height: 2vh;
+.littleStar41 {
+  width: 0.08vh;
+  height: 0.08vh;
   background-color: orange;
   position: absolute;
-  top: 43vh;
-  left: 8vw;
+  top: 44vh;
+  left: 49vw;
   border-radius: 50px;
   z-index: 2;
-  animation: pulse 695ms linear infinite;
+  animation: pulse 2353ms linear infinite;
 }
 
-.littleStar91 {
-  width: 1vh;
-  height: 1vh;
+.littleStar42 {
+  width: 0.57vh;
+  height: 0.57vh;
   background-color: orange;
   position: absolute;
-  top: 46vh;
-  left: 96vw;
-  border-radius: 50px;
-  z-index: 2;
-  animation: pulse 2009ms linear infinite;
-}
-
-.littleStar92 {
-  width: 2vh;
-  height: 2vh;
-  background-color: orange;
-  position: absolute;
-  top: 73vh;
+  top: 21vh;
   left: 61vw;
   border-radius: 50px;
   z-index: 2;
-  animation: pulse 1678ms linear infinite;
+  animation: pulse 987ms linear infinite;
 }
 
-.littleStar93 {
-  width: 1vh;
-  height: 1vh;
+.littleStar43 {
+  width: 0.62vh;
+  height: 0.62vh;
   background-color: orange;
   position: absolute;
-  top: 63vh;
-  left: 23vw;
+  top: 15vh;
+  left: 49vw;
   border-radius: 50px;
   z-index: 2;
-  animation: pulse 384ms linear infinite;
+  animation: pulse 1375ms linear infinite;
 }
 
-.littleStar94 {
-  width: 2vh;
-  height: 2vh;
+.littleStar44 {
+  width: 0.91vh;
+  height: 0.91vh;
   background-color: orange;
   position: absolute;
-  top: 12vh;
-  left: 86vw;
+  top: 50vh;
+  left: 29vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 1492ms linear infinite;
+}
+
+.littleStar45 {
+  width: 0.62vh;
+  height: 0.62vh;
+  background-color: orange;
+  position: absolute;
+  top: 68vh;
+  left: 99vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 1574ms linear infinite;
+}
+
+.littleStar46 {
+  width: 0.09vh;
+  height: 0.09vh;
+  background-color: orange;
+  position: absolute;
+  top: 99vh;
+  left: 21vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 1587ms linear infinite;
+}
+
+.littleStar47 {
+  width: 0.36vh;
+  height: 0.36vh;
+  background-color: orange;
+  position: absolute;
+  top: 26vh;
+  left: 69vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 439ms linear infinite;
+}
+
+.littleStar48 {
+  width: 0.21vh;
+  height: 0.21vh;
+  background-color: orange;
+  position: absolute;
+  top: 43vh;
+  left: 48vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 517ms linear infinite;
+}
+
+.littleStar49 {
+  width: 0.24vh;
+  height: 0.24vh;
+  background-color: orange;
+  position: absolute;
+  top: 95vh;
+  left: 96vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 1098ms linear infinite;
+}
+
+.littleStar50 {
+  width: 0.84vh;
+  height: 0.84vh;
+  background-color: orange;
+  position: absolute;
+  top: 17vh;
+  left: 3vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 2321ms linear infinite;
+}
+
+.littleStar51 {
+  width: 0.1vh;
+  height: 0.1vh;
+  background-color: orange;
+  position: absolute;
+  top: 70vh;
+  left: 60vw;
   border-radius: 50px;
   z-index: 2;
   animation: pulse 307ms linear infinite;
 }
 
-.littleStar95 {
-  width: 2vh;
-  height: 2vh;
+.littleStar52 {
+  width: 0.19vh;
+  height: 0.19vh;
   background-color: orange;
   position: absolute;
-  top: 92vh;
-  left: 74vw;
+  top: 1vh;
+  left: 66vw;
   border-radius: 50px;
   z-index: 2;
-  animation: pulse 2275ms linear infinite;
+  animation: pulse 678ms linear infinite;
 }
 
-.littleStar96 {
-  width: 2vh;
-  height: 2vh;
+.littleStar53 {
+  width: 0.49vh;
+  height: 0.49vh;
   background-color: orange;
   position: absolute;
-  top: 87vh;
-  left: 32vw;
+  top: 3vh;
+  left: 56vw;
   border-radius: 50px;
   z-index: 2;
-  animation: pulse 133ms linear infinite;
+  animation: pulse 2195ms linear infinite;
 }
 
-.littleStar97 {
-  width: 1vh;
-  height: 1vh;
+.littleStar54 {
+  width: 0.74vh;
+  height: 0.74vh;
   background-color: orange;
   position: absolute;
-  top: 8vh;
+  top: 42vh;
+  left: 70vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 2174ms linear infinite;
+}
+
+.littleStar55 {
+  width: 0.26vh;
+  height: 0.26vh;
+  background-color: orange;
+  position: absolute;
+  top: 86vh;
+  left: 81vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 2083ms linear infinite;
+}
+
+.littleStar56 {
+  width: 0.88vh;
+  height: 0.88vh;
+  background-color: orange;
+  position: absolute;
+  top: 46vh;
+  left: 77vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 207ms linear infinite;
+}
+
+.littleStar57 {
+  width: 0.92vh;
+  height: 0.92vh;
+  background-color: orange;
+  position: absolute;
+  top: 73vh;
+  left: 71vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 2129ms linear infinite;
+}
+
+.littleStar58 {
+  width: 0.42vh;
+  height: 0.42vh;
+  background-color: orange;
+  position: absolute;
+  top: 75vh;
+  left: 1vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 582ms linear infinite;
+}
+
+.littleStar59 {
+  width: 0.41vh;
+  height: 0.41vh;
+  background-color: orange;
+  position: absolute;
+  top: 6vh;
+  left: 35vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 1720ms linear infinite;
+}
+
+.littleStar60 {
+  width: 0.57vh;
+  height: 0.57vh;
+  background-color: orange;
+  position: absolute;
+  top: 10vh;
+  left: 28vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 2041ms linear infinite;
+}
+
+.littleStar61 {
+  width: 0.54vh;
+  height: 0.54vh;
+  background-color: orange;
+  position: absolute;
+  top: 24vh;
+  left: 98vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 1903ms linear infinite;
+}
+
+.littleStar62 {
+  width: 0.6vh;
+  height: 0.6vh;
+  background-color: orange;
+  position: absolute;
+  top: 83vh;
+  left: 38vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 2156ms linear infinite;
+}
+
+.littleStar63 {
+  width: 0.55vh;
+  height: 0.55vh;
+  background-color: orange;
+  position: absolute;
+  top: 56vh;
+  left: 19vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 885ms linear infinite;
+}
+
+.littleStar64 {
+  width: 0.06vh;
+  height: 0.06vh;
+  background-color: orange;
+  position: absolute;
+  top: 11vh;
+  left: 49vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 2098ms linear infinite;
+}
+
+.littleStar65 {
+  width: 0.12vh;
+  height: 0.12vh;
+  background-color: orange;
+  position: absolute;
+  top: 97vh;
+  left: 89vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 1113ms linear infinite;
+}
+
+.littleStar66 {
+  width: 0.46vh;
+  height: 0.46vh;
+  background-color: orange;
+  position: absolute;
+  top: 5vh;
   left: 41vw;
   border-radius: 50px;
   z-index: 2;
-  animation: pulse 1092ms linear infinite;
+  animation: pulse 1684ms linear infinite;
 }
 
-.littleStar98 {
-  width: 2vh;
-  height: 2vh;
+.littleStar67 {
+  width: 0.47vh;
+  height: 0.47vh;
+  background-color: orange;
+  position: absolute;
+  top: 80vh;
+  left: 48vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 757ms linear infinite;
+}
+
+.littleStar68 {
+  width: 0.76vh;
+  height: 0.76vh;
+  background-color: orange;
+  position: absolute;
+  top: 61vh;
+  left: 19vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 1085ms linear infinite;
+}
+
+.littleStar69 {
+  width: 0.54vh;
+  height: 0.54vh;
+  background-color: orange;
+  position: absolute;
+  top: 47vh;
+  left: 14vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 1245ms linear infinite;
+}
+
+.littleStar70 {
+  width: 0.9vh;
+  height: 0.9vh;
+  background-color: orange;
+  position: absolute;
+  top: 8vh;
+  left: 15vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 44ms linear infinite;
+}
+
+.littleStar71 {
+  width: 0.16vh;
+  height: 0.16vh;
+  background-color: orange;
+  position: absolute;
+  top: 45vh;
+  left: 38vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 436ms linear infinite;
+}
+
+.littleStar72 {
+  width: 0.32vh;
+  height: 0.32vh;
+  background-color: orange;
+  position: absolute;
+  top: 23vh;
+  left: 4vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 1357ms linear infinite;
+}
+
+.littleStar73 {
+  width: 0.13vh;
+  height: 0.13vh;
+  background-color: orange;
+  position: absolute;
+  top: 69vh;
+  left: 47vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 1630ms linear infinite;
+}
+
+.littleStar74 {
+  width: 0.71vh;
+  height: 0.71vh;
+  background-color: orange;
+  position: absolute;
+  top: 49vh;
+  left: 68vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 1263ms linear infinite;
+}
+
+.littleStar75 {
+  width: 0.67vh;
+  height: 0.67vh;
+  background-color: orange;
+  position: absolute;
+  top: 25vh;
+  left: 41vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 1437ms linear infinite;
+}
+
+.littleStar76 {
+  width: 0.55vh;
+  height: 0.55vh;
+  background-color: orange;
+  position: absolute;
+  top: 61vh;
+  left: 27vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 39ms linear infinite;
+}
+
+.littleStar77 {
+  width: 0.24vh;
+  height: 0.24vh;
+  background-color: orange;
+  position: absolute;
+  top: 1vh;
+  left: 21vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 2061ms linear infinite;
+}
+
+.littleStar78 {
+  width: 0.93vh;
+  height: 0.93vh;
+  background-color: orange;
+  position: absolute;
+  top: 25vh;
+  left: 21vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 1316ms linear infinite;
+}
+
+.littleStar79 {
+  width: 0.61vh;
+  height: 0.61vh;
+  background-color: orange;
+  position: absolute;
+  top: 65vh;
+  left: 90vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 1944ms linear infinite;
+}
+
+.littleStar80 {
+  width: 0.08vh;
+  height: 0.08vh;
+  background-color: orange;
+  position: absolute;
+  top: 19vh;
+  left: 29vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 221ms linear infinite;
+}
+
+.littleStar81 {
+  width: 0.94vh;
+  height: 0.94vh;
+  background-color: orange;
+  position: absolute;
+  top: 85vh;
+  left: 4vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 1023ms linear infinite;
+}
+
+.littleStar82 {
+  width: 0.74vh;
+  height: 0.74vh;
+  background-color: orange;
+  position: absolute;
+  top: 76vh;
+  left: 10vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 815ms linear infinite;
+}
+
+.littleStar83 {
+  width: 0.45vh;
+  height: 0.45vh;
+  background-color: orange;
+  position: absolute;
+  top: 31vh;
+  left: 81vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 223ms linear infinite;
+}
+
+.littleStar84 {
+  width: 0.8vh;
+  height: 0.8vh;
+  background-color: orange;
+  position: absolute;
+  top: 79vh;
+  left: 54vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 2076ms linear infinite;
+}
+
+.littleStar85 {
+  width: 0.14vh;
+  height: 0.14vh;
+  background-color: orange;
+  position: absolute;
+  top: 42vh;
+  left: 4vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 1443ms linear infinite;
+}
+
+.littleStar86 {
+  width: 0.08vh;
+  height: 0.08vh;
+  background-color: orange;
+  position: absolute;
+  top: 21vh;
+  left: 6vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 387ms linear infinite;
+}
+
+.littleStar87 {
+  width: 0.16vh;
+  height: 0.16vh;
+  background-color: orange;
+  position: absolute;
+  top: 11vh;
+  left: 91vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 769ms linear infinite;
+}
+
+.littleStar88 {
+  width: 0.72vh;
+  height: 0.72vh;
+  background-color: orange;
+  position: absolute;
+  top: 94vh;
+  left: 47vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 1998ms linear infinite;
+}
+
+.littleStar89 {
+  width: 0.28vh;
+  height: 0.28vh;
+  background-color: orange;
+  position: absolute;
+  top: 31vh;
+  left: 28vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 6ms linear infinite;
+}
+
+.littleStar90 {
+  width: 0.63vh;
+  height: 0.63vh;
+  background-color: orange;
+  position: absolute;
+  top: 69vh;
+  left: 60vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 1171ms linear infinite;
+}
+
+.littleStar91 {
+  width: 0.47vh;
+  height: 0.47vh;
+  background-color: orange;
+  position: absolute;
+  top: 61vh;
+  left: 13vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 838ms linear infinite;
+}
+
+.littleStar92 {
+  width: 0.43vh;
+  height: 0.43vh;
+  background-color: orange;
+  position: absolute;
+  top: 14vh;
+  left: 52vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 1712ms linear infinite;
+}
+
+.littleStar93 {
+  width: 0.17vh;
+  height: 0.17vh;
+  background-color: orange;
+  position: absolute;
+  top: 95vh;
+  left: 27vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 278ms linear infinite;
+}
+
+.littleStar94 {
+  width: 0.99vh;
+  height: 0.99vh;
+  background-color: orange;
+  position: absolute;
+  top: 40vh;
+  left: 83vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 2212ms linear infinite;
+}
+
+.littleStar95 {
+  width: 0.96vh;
+  height: 0.96vh;
+  background-color: orange;
+  position: absolute;
+  top: 5vh;
+  left: 31vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 1973ms linear infinite;
+}
+
+.littleStar96 {
+  width: 0.42vh;
+  height: 0.42vh;
+  background-color: orange;
+  position: absolute;
+  top: 46vh;
+  left: 35vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 2023ms linear infinite;
+}
+
+.littleStar97 {
+  width: 0.32vh;
+  height: 0.32vh;
   background-color: orange;
   position: absolute;
   top: 64vh;
-  left: 53vw;
+  left: 33vw;
   border-radius: 50px;
   z-index: 2;
-  animation: pulse 195ms linear infinite;
+  animation: pulse 174ms linear infinite;
+}
+
+.littleStar98 {
+  width: 0.19vh;
+  height: 0.19vh;
+  background-color: orange;
+  position: absolute;
+  top: 62vh;
+  left: 3vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 996ms linear infinite;
 }
 
 .littleStar99 {
-  width: 1vh;
-  height: 1vh;
+  width: 0.6vh;
+  height: 0.6vh;
   background-color: orange;
   position: absolute;
-  top: 30vh;
-  left: 43vw;
+  top: 67vh;
+  left: 22vw;
   border-radius: 50px;
   z-index: 2;
-  animation: pulse 1505ms linear infinite;
+  animation: pulse 367ms linear infinite;
 }
 
 /*.littleStar {
