@@ -1,5 +1,44 @@
 body {
-  background-color: black;
+  margin: 0px 0 0 0;
+  background-image: linear-gradient(#00001c, #040044);
+}
+
+#background {
+  height: 100vh;
+  width: 100vw;
+}
+
+#mountains {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top: 100vh;
+  left: 100vw;
+  z-index: 5;
+}
+
+#moon {
+  position: absolute;
+  height: 50vh;
+  width: 50vw;
+  top: 10vh;
+  left: 30vh;
+}
+
+#star {
+  position: absolute;
+  height: 10vh;
+  width: 10vw;
+  top: 40vh;
+  left: 70vw;
+}
+
+#star2 {
+  position: absolute;
+  height: 20vh;
+  width: 20vw;
+  top: 10vh;
+  left: 5vw;
 }
 
 /*# sourceMappingURL=style.css.map */
