@@ -1,3 +1,12 @@
+/* Color Theme Swatches in Hex */
+$Forest-Hill-at-evening-1-hex: #F24171;
+$Forest-Hill-at-evening-2-hex: #032973;
+$Forest-Hill-at-evening-3-hex: #032059;
+$Forest-Hill-at-evening-4-hex: #D98F8F;
+$Forest-Hill-at-evening-5-hex: #D9BFBF;
+
+
+
 @mixin positionAbsolute($height, $width, $top, $left) {
   position: absolute;
   height: $height;
@@ -6,10 +15,20 @@
   left: $left;
 }
 
+
+
+@keyframes Dawn {
+    0%{background-position:50% 0%}
+    100%{background-position:51% 100%}
+    
+}
+
 body {
   margin: 0px 0 0 0;
-  background: linear-gradient(#00001c, #040044);
+  background: linear-gradient(180deg, $Forest-Hill-at-evening-3-hex, $Forest-Hill-at-evening-2-hex,$Forest-Hill-at-evening-1-hex);
+  background-size: 600% 600%;
   height: 100vh;
+  animation: Dawn 20s ease infinite;
 }
 
 #background {
@@ -24,24 +43,76 @@ body {
 }
 
 @keyframes moonDown {
-    from {top: 0%}
+    from {top: -50%}
     to {bottom: 100%}
 }
 
 #moonControl {
-    z-index: 1;
-    @include positionAbsolute(50vh, 50vw, 0vh, 30vh);
+    z-index: 4;
+    @include positionAbsolute(50vh, 50vw, 0vh, 20vh);
     height: 100vh;
 }
 
 #moon {
-    z-index: 1;
-    @include positionAbsolute(50vh, 50vw, 100vh, 30vh);
-  animation: moonDown 5s linear infinite;
+    z-index: 4;
+    @include positionAbsolute(50vh, 50vw, 100vh, 20vh);
+  animation: moonDown 20s linear infinite;
 }
+
+@keyframes pulse {
+    0% {transform: scale(1);opacity: 0.6}
+    50% {transform: scale(1.2);opacity: 1}
+    100% {transform: scale(1);opacity:0.6}
+}
+/*
+@keyframes blink {
+    0% {opacity: 1}
+    50% {opacity: 0.6}
+    100% {opacity:1}
+}
+*/
 #star {
   @include positionAbsolute(10vh, 10vw, 40vh, 70vw);
+  animation: pulse 0.7s ease-in-out infinite;
+  z-index: 3;
+  
 }
 #star2 {
   @include positionAbsolute(20vh, 20vw, 10vh, 5vw);
+  animation: pulse 1s linear infinite;
+  z-index: 3;
 }
+
+@for $i from 1 to 100 {
+    $limit: 100;
+    $animationTime: 2400;
+    $sizeSize: 2;
+    $test: random((2000) + 400);
+    $size: random($sizeSize);
+//$top: #{$i}vh;
+//$left: #{$i}vh;
+
+    .littleStar#{$i} {
+    
+        width: $size + vh;
+        height: $size + vh;
+        background-color: orange;
+        position: absolute;
+        top:random($limit) + vh;
+        left: random($limit) + vw;
+        border-radius: 50px;
+        z-index: 2;
+        animation: pulse $test + ms linear infinite;
+    }
+    
+}
+
+
+/*.littleStar {
+    background-color: orange;
+    @include positionAbsolute(1vh,1vh,5vh,5vw);
+    border-radius: 50px;
+    z-index: 3;
+}
+
+*/

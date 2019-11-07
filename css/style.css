@@ -1,7 +1,18 @@
+/* Color Theme Swatches in Hex */
+@keyframes Dawn {
+  0% {
+    background-position: 50% 0%;
+  }
+  100% {
+    background-position: 51% 100%;
+  }
+}
 body {
   margin: 0px 0 0 0;
-  background: linear-gradient(#00001c, #040044);
+  background: linear-gradient(180deg, #032059, #032973, #F24171);
+  background-size: 600% 600%;
   height: 100vh;
+  animation: Dawn 20s ease infinite;
 }
 
 #background {
@@ -17,38 +28,61 @@ body {
 
 @keyframes moonDown {
   from {
-    top: 0%;
+    top: -50%;
   }
   to {
     bottom: 100%;
   }
 }
 #moonControl {
-  z-index: 1;
+  z-index: 4;
   position: absolute;
   height: 50vh;
   width: 50vw;
   top: 0vh;
-  left: 30vh;
+  left: 20vh;
   height: 100vh;
 }
 
 #moon {
-  z-index: 1;
+  z-index: 4;
   position: absolute;
   height: 50vh;
   width: 50vw;
   top: 100vh;
-  left: 30vh;
-  animation: moonDown 5s linear infinite;
+  left: 20vh;
+  animation: moonDown 20s linear infinite;
 }
 
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 0.6;
+  }
+  50% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0.6;
+  }
+}
+/*
+@keyframes blink {
+    0% {opacity: 1}
+    50% {opacity: 0.6}
+    100% {opacity:1}
+}
+*/
 #star {
   position: absolute;
   height: 10vh;
   width: 10vw;
   top: 40vh;
   left: 70vw;
+  animation: pulse 0.7s ease-in-out infinite;
+  z-index: 3;
 }
 
 #star2 {
@@ -57,6 +91,1205 @@ body {
   width: 20vw;
   top: 10vh;
   left: 5vw;
+  animation: pulse 1s linear infinite;
+  z-index: 3;
 }
+
+.littleStar1 {
+  width: 2vh;
+  height: 2vh;
+  background-color: orange;
+  position: absolute;
+  top: 87vh;
+  left: 27vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 888ms linear infinite;
+}
+
+.littleStar2 {
+  width: 2vh;
+  height: 2vh;
+  background-color: orange;
+  position: absolute;
+  top: 83vh;
+  left: 98vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 510ms linear infinite;
+}
+
+.littleStar3 {
+  width: 2vh;
+  height: 2vh;
+  background-color: orange;
+  position: absolute;
+  top: 66vh;
+  left: 44vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 53ms linear infinite;
+}
+
+.littleStar4 {
+  width: 1vh;
+  height: 1vh;
+  background-color: orange;
+  position: absolute;
+  top: 100vh;
+  left: 37vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 330ms linear infinite;
+}
+
+.littleStar5 {
+  width: 1vh;
+  height: 1vh;
+  background-color: orange;
+  position: absolute;
+  top: 57vh;
+  left: 50vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 1998ms linear infinite;
+}
+
+.littleStar6 {
+  width: 2vh;
+  height: 2vh;
+  background-color: orange;
+  position: absolute;
+  top: 45vh;
+  left: 94vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 1167ms linear infinite;
+}
+
+.littleStar7 {
+  width: 1vh;
+  height: 1vh;
+  background-color: orange;
+  position: absolute;
+  top: 45vh;
+  left: 95vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 1843ms linear infinite;
+}
+
+.littleStar8 {
+  width: 1vh;
+  height: 1vh;
+  background-color: orange;
+  position: absolute;
+  top: 13vh;
+  left: 35vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 2089ms linear infinite;
+}
+
+.littleStar9 {
+  width: 2vh;
+  height: 2vh;
+  background-color: orange;
+  position: absolute;
+  top: 84vh;
+  left: 36vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 1005ms linear infinite;
+}
+
+.littleStar10 {
+  width: 2vh;
+  height: 2vh;
+  background-color: orange;
+  position: absolute;
+  top: 34vh;
+  left: 64vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 1730ms linear infinite;
+}
+
+.littleStar11 {
+  width: 2vh;
+  height: 2vh;
+  background-color: orange;
+  position: absolute;
+  top: 44vh;
+  left: 24vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 2345ms linear infinite;
+}
+
+.littleStar12 {
+  width: 1vh;
+  height: 1vh;
+  background-color: orange;
+  position: absolute;
+  top: 41vh;
+  left: 76vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 1996ms linear infinite;
+}
+
+.littleStar13 {
+  width: 2vh;
+  height: 2vh;
+  background-color: orange;
+  position: absolute;
+  top: 89vh;
+  left: 59vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 459ms linear infinite;
+}
+
+.littleStar14 {
+  width: 1vh;
+  height: 1vh;
+  background-color: orange;
+  position: absolute;
+  top: 44vh;
+  left: 25vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 1346ms linear infinite;
+}
+
+.littleStar15 {
+  width: 1vh;
+  height: 1vh;
+  background-color: orange;
+  position: absolute;
+  top: 76vh;
+  left: 45vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 1920ms linear infinite;
+}
+
+.littleStar16 {
+  width: 2vh;
+  height: 2vh;
+  background-color: orange;
+  position: absolute;
+  top: 66vh;
+  left: 88vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 1226ms linear infinite;
+}
+
+.littleStar17 {
+  width: 2vh;
+  height: 2vh;
+  background-color: orange;
+  position: absolute;
+  top: 82vh;
+  left: 65vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 1035ms linear infinite;
+}
+
+.littleStar18 {
+  width: 1vh;
+  height: 1vh;
+  background-color: orange;
+  position: absolute;
+  top: 95vh;
+  left: 1vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 2089ms linear infinite;
+}
+
+.littleStar19 {
+  width: 2vh;
+  height: 2vh;
+  background-color: orange;
+  position: absolute;
+  top: 51vh;
+  left: 65vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 493ms linear infinite;
+}
+
+.littleStar20 {
+  width: 2vh;
+  height: 2vh;
+  background-color: orange;
+  position: absolute;
+  top: 76vh;
+  left: 21vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 1960ms linear infinite;
+}
+
+.littleStar21 {
+  width: 1vh;
+  height: 1vh;
+  background-color: orange;
+  position: absolute;
+  top: 10vh;
+  left: 64vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 361ms linear infinite;
+}
+
+.littleStar22 {
+  width: 2vh;
+  height: 2vh;
+  background-color: orange;
+  position: absolute;
+  top: 32vh;
+  left: 64vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 124ms linear infinite;
+}
+
+.littleStar23 {
+  width: 1vh;
+  height: 1vh;
+  background-color: orange;
+  position: absolute;
+  top: 89vh;
+  left: 91vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 1303ms linear infinite;
+}
+
+.littleStar24 {
+  width: 2vh;
+  height: 2vh;
+  background-color: orange;
+  position: absolute;
+  top: 50vh;
+  left: 61vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 862ms linear infinite;
+}
+
+.littleStar25 {
+  width: 1vh;
+  height: 1vh;
+  background-color: orange;
+  position: absolute;
+  top: 25vh;
+  left: 21vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 967ms linear infinite;
+}
+
+.littleStar26 {
+  width: 2vh;
+  height: 2vh;
+  background-color: orange;
+  position: absolute;
+  top: 39vh;
+  left: 71vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 1540ms linear infinite;
+}
+
+.littleStar27 {
+  width: 2vh;
+  height: 2vh;
+  background-color: orange;
+  position: absolute;
+  top: 69vh;
+  left: 91vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 82ms linear infinite;
+}
+
+.littleStar28 {
+  width: 1vh;
+  height: 1vh;
+  background-color: orange;
+  position: absolute;
+  top: 45vh;
+  left: 5vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 1550ms linear infinite;
+}
+
+.littleStar29 {
+  width: 1vh;
+  height: 1vh;
+  background-color: orange;
+  position: absolute;
+  top: 95vh;
+  left: 31vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 405ms linear infinite;
+}
+
+.littleStar30 {
+  width: 1vh;
+  height: 1vh;
+  background-color: orange;
+  position: absolute;
+  top: 20vh;
+  left: 40vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 330ms linear infinite;
+}
+
+.littleStar31 {
+  width: 2vh;
+  height: 2vh;
+  background-color: orange;
+  position: absolute;
+  top: 80vh;
+  left: 34vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 2347ms linear infinite;
+}
+
+.littleStar32 {
+  width: 1vh;
+  height: 1vh;
+  background-color: orange;
+  position: absolute;
+  top: 44vh;
+  left: 47vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 352ms linear infinite;
+}
+
+.littleStar33 {
+  width: 2vh;
+  height: 2vh;
+  background-color: orange;
+  position: absolute;
+  top: 86vh;
+  left: 96vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 851ms linear infinite;
+}
+
+.littleStar34 {
+  width: 2vh;
+  height: 2vh;
+  background-color: orange;
+  position: absolute;
+  top: 73vh;
+  left: 76vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 907ms linear infinite;
+}
+
+.littleStar35 {
+  width: 1vh;
+  height: 1vh;
+  background-color: orange;
+  position: absolute;
+  top: 47vh;
+  left: 37vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 144ms linear infinite;
+}
+
+.littleStar36 {
+  width: 1vh;
+  height: 1vh;
+  background-color: orange;
+  position: absolute;
+  top: 54vh;
+  left: 56vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 909ms linear infinite;
+}
+
+.littleStar37 {
+  width: 2vh;
+  height: 2vh;
+  background-color: orange;
+  position: absolute;
+  top: 64vh;
+  left: 92vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 715ms linear infinite;
+}
+
+.littleStar38 {
+  width: 1vh;
+  height: 1vh;
+  background-color: orange;
+  position: absolute;
+  top: 87vh;
+  left: 33vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 279ms linear infinite;
+}
+
+.littleStar39 {
+  width: 2vh;
+  height: 2vh;
+  background-color: orange;
+  position: absolute;
+  top: 53vh;
+  left: 19vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 1947ms linear infinite;
+}
+
+.littleStar40 {
+  width: 1vh;
+  height: 1vh;
+  background-color: orange;
+  position: absolute;
+  top: 25vh;
+  left: 89vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 1208ms linear infinite;
+}
+
+.littleStar41 {
+  width: 1vh;
+  height: 1vh;
+  background-color: orange;
+  position: absolute;
+  top: 24vh;
+  left: 37vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 2353ms linear infinite;
+}
+
+.littleStar42 {
+  width: 2vh;
+  height: 2vh;
+  background-color: orange;
+  position: absolute;
+  top: 77vh;
+  left: 59vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 316ms linear infinite;
+}
+
+.littleStar43 {
+  width: 1vh;
+  height: 1vh;
+  background-color: orange;
+  position: absolute;
+  top: 75vh;
+  left: 87vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 1917ms linear infinite;
+}
+
+.littleStar44 {
+  width: 1vh;
+  height: 1vh;
+  background-color: orange;
+  position: absolute;
+  top: 9vh;
+  left: 26vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 2308ms linear infinite;
+}
+
+.littleStar45 {
+  width: 1vh;
+  height: 1vh;
+  background-color: orange;
+  position: absolute;
+  top: 11vh;
+  left: 77vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 611ms linear infinite;
+}
+
+.littleStar46 {
+  width: 1vh;
+  height: 1vh;
+  background-color: orange;
+  position: absolute;
+  top: 34vh;
+  left: 95vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 1638ms linear infinite;
+}
+
+.littleStar47 {
+  width: 1vh;
+  height: 1vh;
+  background-color: orange;
+  position: absolute;
+  top: 91vh;
+  left: 42vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 1050ms linear infinite;
+}
+
+.littleStar48 {
+  width: 2vh;
+  height: 2vh;
+  background-color: orange;
+  position: absolute;
+  top: 86vh;
+  left: 24vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 1831ms linear infinite;
+}
+
+.littleStar49 {
+  width: 1vh;
+  height: 1vh;
+  background-color: orange;
+  position: absolute;
+  top: 48vh;
+  left: 29vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 748ms linear infinite;
+}
+
+.littleStar50 {
+  width: 2vh;
+  height: 2vh;
+  background-color: orange;
+  position: absolute;
+  top: 17vh;
+  left: 13vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 110ms linear infinite;
+}
+
+.littleStar51 {
+  width: 1vh;
+  height: 1vh;
+  background-color: orange;
+  position: absolute;
+  top: 49vh;
+  left: 96vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 1123ms linear infinite;
+}
+
+.littleStar52 {
+  width: 2vh;
+  height: 2vh;
+  background-color: orange;
+  position: absolute;
+  top: 52vh;
+  left: 83vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 596ms linear infinite;
+}
+
+.littleStar53 {
+  width: 2vh;
+  height: 2vh;
+  background-color: orange;
+  position: absolute;
+  top: 19vh;
+  left: 44vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 1472ms linear infinite;
+}
+
+.littleStar54 {
+  width: 1vh;
+  height: 1vh;
+  background-color: orange;
+  position: absolute;
+  top: 18vh;
+  left: 56vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 713ms linear infinite;
+}
+
+.littleStar55 {
+  width: 1vh;
+  height: 1vh;
+  background-color: orange;
+  position: absolute;
+  top: 9vh;
+  left: 87vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 1155ms linear infinite;
+}
+
+.littleStar56 {
+  width: 1vh;
+  height: 1vh;
+  background-color: orange;
+  position: absolute;
+  top: 68vh;
+  left: 81vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 442ms linear infinite;
+}
+
+.littleStar57 {
+  width: 1vh;
+  height: 1vh;
+  background-color: orange;
+  position: absolute;
+  top: 9vh;
+  left: 69vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 1358ms linear infinite;
+}
+
+.littleStar58 {
+  width: 2vh;
+  height: 2vh;
+  background-color: orange;
+  position: absolute;
+  top: 82vh;
+  left: 7vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 2160ms linear infinite;
+}
+
+.littleStar59 {
+  width: 1vh;
+  height: 1vh;
+  background-color: orange;
+  position: absolute;
+  top: 99vh;
+  left: 13vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 1810ms linear infinite;
+}
+
+.littleStar60 {
+  width: 2vh;
+  height: 2vh;
+  background-color: orange;
+  position: absolute;
+  top: 76vh;
+  left: 100vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 654ms linear infinite;
+}
+
+.littleStar61 {
+  width: 1vh;
+  height: 1vh;
+  background-color: orange;
+  position: absolute;
+  top: 5vh;
+  left: 11vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 2168ms linear infinite;
+}
+
+.littleStar62 {
+  width: 1vh;
+  height: 1vh;
+  background-color: orange;
+  position: absolute;
+  top: 45vh;
+  left: 53vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 1517ms linear infinite;
+}
+
+.littleStar63 {
+  width: 2vh;
+  height: 2vh;
+  background-color: orange;
+  position: absolute;
+  top: 81vh;
+  left: 26vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 70ms linear infinite;
+}
+
+.littleStar64 {
+  width: 1vh;
+  height: 1vh;
+  background-color: orange;
+  position: absolute;
+  top: 95vh;
+  left: 18vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 63ms linear infinite;
+}
+
+.littleStar65 {
+  width: 2vh;
+  height: 2vh;
+  background-color: orange;
+  position: absolute;
+  top: 30vh;
+  left: 85vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 1997ms linear infinite;
+}
+
+.littleStar66 {
+  width: 1vh;
+  height: 1vh;
+  background-color: orange;
+  position: absolute;
+  top: 32vh;
+  left: 83vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 1104ms linear infinite;
+}
+
+.littleStar67 {
+  width: 1vh;
+  height: 1vh;
+  background-color: orange;
+  position: absolute;
+  top: 79vh;
+  left: 10vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 1174ms linear infinite;
+}
+
+.littleStar68 {
+  width: 2vh;
+  height: 2vh;
+  background-color: orange;
+  position: absolute;
+  top: 20vh;
+  left: 58vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 1822ms linear infinite;
+}
+
+.littleStar69 {
+  width: 1vh;
+  height: 1vh;
+  background-color: orange;
+  position: absolute;
+  top: 51vh;
+  left: 39vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 915ms linear infinite;
+}
+
+.littleStar70 {
+  width: 1vh;
+  height: 1vh;
+  background-color: orange;
+  position: absolute;
+  top: 63vh;
+  left: 26vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 1225ms linear infinite;
+}
+
+.littleStar71 {
+  width: 2vh;
+  height: 2vh;
+  background-color: orange;
+  position: absolute;
+  top: 3vh;
+  left: 65vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 599ms linear infinite;
+}
+
+.littleStar72 {
+  width: 1vh;
+  height: 1vh;
+  background-color: orange;
+  position: absolute;
+  top: 11vh;
+  left: 96vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 2009ms linear infinite;
+}
+
+.littleStar73 {
+  width: 2vh;
+  height: 2vh;
+  background-color: orange;
+  position: absolute;
+  top: 92vh;
+  left: 24vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 1674ms linear infinite;
+}
+
+.littleStar74 {
+  width: 2vh;
+  height: 2vh;
+  background-color: orange;
+  position: absolute;
+  top: 16vh;
+  left: 95vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 1605ms linear infinite;
+}
+
+.littleStar75 {
+  width: 1vh;
+  height: 1vh;
+  background-color: orange;
+  position: absolute;
+  top: 1vh;
+  left: 74vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 1048ms linear infinite;
+}
+
+.littleStar76 {
+  width: 2vh;
+  height: 2vh;
+  background-color: orange;
+  position: absolute;
+  top: 56vh;
+  left: 3vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 606ms linear infinite;
+}
+
+.littleStar77 {
+  width: 2vh;
+  height: 2vh;
+  background-color: orange;
+  position: absolute;
+  top: 5vh;
+  left: 58vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 2290ms linear infinite;
+}
+
+.littleStar78 {
+  width: 2vh;
+  height: 2vh;
+  background-color: orange;
+  position: absolute;
+  top: 62vh;
+  left: 43vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 81ms linear infinite;
+}
+
+.littleStar79 {
+  width: 1vh;
+  height: 1vh;
+  background-color: orange;
+  position: absolute;
+  top: 40vh;
+  left: 39vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 2314ms linear infinite;
+}
+
+.littleStar80 {
+  width: 2vh;
+  height: 2vh;
+  background-color: orange;
+  position: absolute;
+  top: 53vh;
+  left: 98vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 436ms linear infinite;
+}
+
+.littleStar81 {
+  width: 1vh;
+  height: 1vh;
+  background-color: orange;
+  position: absolute;
+  top: 89vh;
+  left: 74vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 1843ms linear infinite;
+}
+
+.littleStar82 {
+  width: 2vh;
+  height: 2vh;
+  background-color: orange;
+  position: absolute;
+  top: 80vh;
+  left: 56vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 1028ms linear infinite;
+}
+
+.littleStar83 {
+  width: 2vh;
+  height: 2vh;
+  background-color: orange;
+  position: absolute;
+  top: 21vh;
+  left: 49vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 2102ms linear infinite;
+}
+
+.littleStar84 {
+  width: 1vh;
+  height: 1vh;
+  background-color: orange;
+  position: absolute;
+  top: 83vh;
+  left: 48vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 1138ms linear infinite;
+}
+
+.littleStar85 {
+  width: 2vh;
+  height: 2vh;
+  background-color: orange;
+  position: absolute;
+  top: 23vh;
+  left: 88vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 1903ms linear infinite;
+}
+
+.littleStar86 {
+  width: 1vh;
+  height: 1vh;
+  background-color: orange;
+  position: absolute;
+  top: 77vh;
+  left: 1vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 710ms linear infinite;
+}
+
+.littleStar87 {
+  width: 1vh;
+  height: 1vh;
+  background-color: orange;
+  position: absolute;
+  top: 2vh;
+  left: 85vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 830ms linear infinite;
+}
+
+.littleStar88 {
+  width: 2vh;
+  height: 2vh;
+  background-color: orange;
+  position: absolute;
+  top: 21vh;
+  left: 76vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 891ms linear infinite;
+}
+
+.littleStar89 {
+  width: 2vh;
+  height: 2vh;
+  background-color: orange;
+  position: absolute;
+  top: 79vh;
+  left: 80vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 557ms linear infinite;
+}
+
+.littleStar90 {
+  width: 2vh;
+  height: 2vh;
+  background-color: orange;
+  position: absolute;
+  top: 43vh;
+  left: 8vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 695ms linear infinite;
+}
+
+.littleStar91 {
+  width: 1vh;
+  height: 1vh;
+  background-color: orange;
+  position: absolute;
+  top: 46vh;
+  left: 96vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 2009ms linear infinite;
+}
+
+.littleStar92 {
+  width: 2vh;
+  height: 2vh;
+  background-color: orange;
+  position: absolute;
+  top: 73vh;
+  left: 61vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 1678ms linear infinite;
+}
+
+.littleStar93 {
+  width: 1vh;
+  height: 1vh;
+  background-color: orange;
+  position: absolute;
+  top: 63vh;
+  left: 23vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 384ms linear infinite;
+}
+
+.littleStar94 {
+  width: 2vh;
+  height: 2vh;
+  background-color: orange;
+  position: absolute;
+  top: 12vh;
+  left: 86vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 307ms linear infinite;
+}
+
+.littleStar95 {
+  width: 2vh;
+  height: 2vh;
+  background-color: orange;
+  position: absolute;
+  top: 92vh;
+  left: 74vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 2275ms linear infinite;
+}
+
+.littleStar96 {
+  width: 2vh;
+  height: 2vh;
+  background-color: orange;
+  position: absolute;
+  top: 87vh;
+  left: 32vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 133ms linear infinite;
+}
+
+.littleStar97 {
+  width: 1vh;
+  height: 1vh;
+  background-color: orange;
+  position: absolute;
+  top: 8vh;
+  left: 41vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 1092ms linear infinite;
+}
+
+.littleStar98 {
+  width: 2vh;
+  height: 2vh;
+  background-color: orange;
+  position: absolute;
+  top: 64vh;
+  left: 53vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 195ms linear infinite;
+}
+
+.littleStar99 {
+  width: 1vh;
+  height: 1vh;
+  background-color: orange;
+  position: absolute;
+  top: 30vh;
+  left: 43vw;
+  border-radius: 50px;
+  z-index: 2;
+  animation: pulse 1505ms linear infinite;
+}
+
+/*.littleStar {
+    background-color: orange;
+    @include positionAbsolute(1vh,1vh,5vh,5vw);
+    border-radius: 50px;
+    z-index: 3;
+}
+
+*/
 
 /*# sourceMappingURL=style.css.map */
