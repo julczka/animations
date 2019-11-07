@@ -43,19 +43,19 @@ body {
 }
 
 @keyframes moonDown {
-    from {top: -50%}
-    to {bottom: 100%}
+    from {top: -50%; transform: scale(0.5);}
+    to {bottom: 100%;transform: scale(1);}
 }
 
 #moonControl {
     z-index: 4;
-    @include positionAbsolute(50vh, 50vw, 0vh, 20vh);
+    @include positionAbsolute(50vh, 50vw, 0vh, 10vw);
     height: 100vh;
 }
 
 #moon {
     z-index: 4;
-    @include positionAbsolute(50vh, 50vw, 100vh, 20vh);
+    @include positionAbsolute(50vh, 50vw, 100vh, 10vw);
   animation: moonDown 20s linear infinite;
 }
 
@@ -93,7 +93,7 @@ body {
     $limit: 100;
     $animationTime: 2400;
     $test: random((2000) + 400);
-    $size: random(100);
+    $size: random((100) + 10);
 //$top: #{$i}vh;
 //$left: #{$i}vh;
 
